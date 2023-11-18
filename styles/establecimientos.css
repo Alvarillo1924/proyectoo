@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'fuente';
+    src: url('/font/PlaypenSans-VariableFont_wght.ttf');
+}
+
+img {
+    width: 100%;
+}
+
+html {
+    font-family: 'fuente';
+    font-size: 17px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #F6B26B;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F6B26B;
+    padding: 10px;
+
+}
+
+nav a {
+    background-color: #a0713476;
+    color: black;
+    text-decoration: none;
+    padding: 8px 12px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+nav a:hover {
+    background-color: #c6b197;
+    color: #fffbf0;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #F6B26B;
+    color: white;
+}
+
+p {
+    text-align: justify;
+    line-height: 24px;
+}
+
+.imgEs {
+    float: left;
+    max-width: 400px;
+    padding: 0 30px;
+}
+
+h2 {
+    text-shadow: 3px 2px 2px #5a4e13;
+    font-size: 2rem;
+}
+
+.side {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    background-color: #F6B26B
+}
+
+.side aside {
+    background-color: #ecc091;
+    flex: 70%;
+    padding: 15px;
+}
+
+.side aside img {
+    flex-direction: row;
+    width: 300px;
+}
+
+aside div{
+    background-color: #ffffff;
+    width: 30%;
+    height: 150px;
+    box-shadow: 5px 5px 5px #6e5615;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+
+.side section {
+    background-color: #F6B26B;
+    flex: 30%;
+    padding: 15px;
+    flex-direction: row;
+}
+
+.promos div {
+    background-color: #ffffff;
+    width: 30%;
+    height: 150px;
+    box-shadow: 5px 5px 5px #6e5615;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+
+.resenhas div {
+    background-color: #ffffff;
+    width: 30%;
+    height: 150px;
+    box-shadow: 5px 5px 5px #6e5615;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.calificacion {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    background-color: #F6B26B;
+}
+
+.image-checkbox {
+    display: none;
+}
+
+.image {
+    width: 20px;
+    cursor: pointer;
+}
+
+.image-checkbox:checked+.image {
+    background-color: #ffcc00;
+}
